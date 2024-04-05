@@ -22,7 +22,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(System.DefaultWorkingDirectory)/nodeoutput/1/s/'
+    SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: '**'  # Include all files and folders
     TargetFolder: '/var/www/html/nodejs-azure/'  # Destination folder
     CleanTargetFolder: true  # Clean the target folder before copying
