@@ -24,6 +24,6 @@ steps:
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: '**'  # Include all files and folders
-    TargetFolder: '/var/www/html/nodejs-azure/'  # Destination folder
+    TargetFolder: '/home/jaisonjoy/nodeoutput/test/'  # Destination folder
     CleanTargetFolder: true  # Clean the target folder before copying
 
