@@ -16,9 +16,11 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    npm install -g npm@latest
     npm run build
-    npm install pm2 -g
+    npm install pm2@latest -g
+    npm install react-scripts
+    
   displayName: 'npm install and build'
 
 - task: CopyFiles@2
